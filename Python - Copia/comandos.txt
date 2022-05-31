@@ -1,0 +1,4 @@
+cd .. -> Sair da pasta
+cd nome pasta -> Entrar na pasta
+mkdir nome pasta -> Criar pasta
+rd /s testcmd -> Deletar pasta

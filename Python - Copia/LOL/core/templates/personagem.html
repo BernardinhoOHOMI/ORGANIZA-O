@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <title> Sobre os personagens presentes na série </title>
+</head>
+<body>
+    <div class="p-0 mb-0 bg-light text-dark">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">{% load static %} <img src="{% static 'images/Arcane_Title_Text.png' %}" width="90" height="30" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                   <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="oque.html">Sobre</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="comunidade.html">Comunidade</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="personagem.html">Personagens<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="noticias.html">Notícias</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="produtos.html">Produtos</a>
+                </li>
+              </ul>
+            </div>   
+        </nav>
+    </header>
+
+    <h1> Descubra mais sobre os personagens </h1>
+
+
+<main class="personagem">
+    <section id="content-personagem">
+        
+        <article>
+            <h2> Heimerdinger </h2>
+            <p> O cientista yordle é introduzido logo no início de Arcane. Sendo um renomado professor e membro do Conselho que governa a cidade, ele visita Jayce após o jovem ser preso, comparando-o a si mesmo. Além de tentar entender o que aconteceu para o garoto investir em uma pesquisa perigosa, ele alerta o aluno sobre os terríveis riscos do arcano, buscando levá-lo a outro caminho por perceber seu potencial. </p>
+            <img src=""> <!-- Sem imagem-->
+        </article>
+        <article>
+            <h2> Jayce </h2>
+            <p> Em Arcane, descobrimos que, quando criança, Jayce e sua mãe foram salvos por um mago de uma fatalidade. Desde então, o inventor cresceu apaixonado por magia, desesperado para trazer glória para sua família e explorar esse potencial fantástico das artes mágicas, algo capaz de mudar a vida das pessoas </p>
+            <img src="">
+        </article>
+        <article>
+            <h2> Jinx </h2>
+            <p> Jinx é apresentada na série inicialmente como Powder, a garotinha que conhecemos logo na abertura do Ato I da série. Tendo perdido seus pais após eles serem mortos por defensores na ponte que conecta Zaun e Piltover, ela passa a ser criada por Vander, que toma conta dela, de sua irmã mais velha, Vi, bem como de Claggor e Mylo. </p>
+            <img src=""> <!-- Sem imagem -->
+        </article>
+        <article>
+            <h2> Vi </h2>
+            <p> Na série da Netflix, somos apresentados a Vi logo na abertura do primeiro ato, quando ela aparece ainda criança ao lado de sua irmã, Powder. Logo fica claro o modo trágico e violento como elas perderam seus pais, sendo então adotadas por Vander, que passa a cuidar das duas, bem como de Claggor e Mylo. </p>
+        </article>
+    </section>
+
+</main>
+<footer class="bg-dark text-center text-white">
+    <!-- Grid container -->
+    <div class="container mb-0 mt-0 p-3 pb-4">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/RiotGames" role="button"
+        ><i class="bi bi-facebook"></i></a>
+
+        <!-- Twitter -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/riotgames?lang=pt" role="button"
+          ><i class="bi bi-twitter"></i></a>
+       
+        <!-- Google -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.riotgames.com/pt-br" role="button"
+          ><i class="bi bi-google"></i></a>
+  
+        <!-- Instagram -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/riotgames/" role="button"
+          ><i class="bi bi-instagram"></i></a>
+  
+        <!-- Youtube -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.youtube.com/c/riotgames" role="button"
+          ><i class="bi bi-youtube"></i></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2020 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+</div>
+</body>
+</html>

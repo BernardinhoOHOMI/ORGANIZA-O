@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <title> O que é ? </title>
+</head>
+<body>
+    <div class="p-0 mb-0 bg-light text-dark">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">{% load static %} <img src="{% static 'images/Arcane_Title_Text.png' %}" width="90" height="30" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                   <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="oque.html">Sobre<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="comunidade.html">Comunidade</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="personagem.html">Personagens</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="noticias.html">Notícias</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="produtos.html">Produtos</a>
+                </li>
+              </ul>
+            </div>   
+        </nav>
+    </header>
+    <br>
+    
+
+<main class="Oqueé">
+    <section id="content-leigo">
+        <article>
+            <div class="jumbotron p-3 p-md-5 text-white rounded bg-dark">
+                <div class="col-md-4 px-0">
+                  <h2 class="display-4">O que é e seu enredo:</h2>
+                  <p class="lead my-3">Série que conta sobre conflito entre as cidades-gêmeas de Piltover e Zaun, onde, duas irmãs lutam em lados opostos de uma guerra entre tecnologias mágicas e convicções incompatíveis.</p>
+                </div>
+              </div>
+        </article>
+        <article>
+            <h4> Piltover </h4>
+            <p> Piltover é uma cidade próspera e progressiva cujo poder e influência estão em crescimento. Ela é o centro cultural de Valoran, onde a arte, o artesanato, o comércio e a inovação andam de mãos dadas. Seu poder não vem de soberania militar, mas através dos motores do comércio e do pensamento de vanguarda. Situada no despenhadeiro acima do distrito de Zaun e de frente para o oceano, frotas de navios passam por seus portões do mar gigantescos, trazendo iguarias do mundo todo. A riqueza que isso gera deu lugar a um aumento sem precedentes no crescimento da cidade. Piltover se reinventou - e continua se reinventando - como uma cidade onde fortunas podem ser feitas e sonhos podem ser realizados. Os crescentes clãs de mercadores investiram no desenvolvimento dos empreendimentos mais incríveis: grandes loucuras artísticas, pesquisa hextec esotérica e monumentos arquitetônicos em seu poder. Como cada vez mais inventores estão se envolvendo com a história de hextec, Piltover se tornou um ímã para os artesãos mais habilidosos do mundo. </p>
+            <img src="">
+        </article>
+        <article>
+            <h4> Zaun </h4>
+            <p> Zaun é um grande distrito subterrâneo, aos pés de cânions profundos e vales que cortam Piltover. A pouca luz que chega lá é filtrada pelas fumaças que saem dos emaranhados de canos corroídos e refletem do vidro manchado de sua arquitetura industrial. Zaun e Piltover já foram unidas, mas agora são sociedades simbióticas, mas separadas. Apesar de existir no crepúsculo perpétuo da poluição, Zaun prospera com seu povo vibrante e sua rica cultura. A riqueza de Piltover permitiu que Zaun se desenvolvesse em paralelo; um espelho escuro da cidade acima. Muitas das mercadorias que chegam a Piltover acabam entrando no mercado clandestino de Zaun, e os inventores hextec que consideram que as restrições impostas na cidade acima são muito rígidas descobrem que suas pesquisas perigosas são bem-vindas em Zaun. O desenvolvimento desenfreado de tecnologias voláteis e da indústria imprudente fez com que as extensões de Zaun ficassem poluídas e perigosas. Correntes de derramamento tóxico estagnaram nas partes mais baixas da cidade, mas mesmo aqui as pessoas encontram maneiras de existir e prosperar. </p>
+            <img src=""> <!-- Sem imagem -->
+        </article>
+    </section>
+</main>
+     
+<footer class="bg-dark text-center text-white">
+    <!-- Grid container -->
+    <div class="container mb-0 mt-0 p-3 pb-4">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/RiotGames" role="button"
+        ><i class="bi bi-facebook"></i></a>
+
+        <!-- Twitter -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/riotgames?lang=pt" role="button"
+          ><i class="bi bi-twitter"></i></a>
+       
+        <!-- Google -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.riotgames.com/pt-br" role="button"
+          ><i class="bi bi-google"></i></a>
+  
+        <!-- Instagram -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/riotgames/" role="button"
+          ><i class="bi bi-instagram"></i></a>
+  
+        <!-- Youtube -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.youtube.com/c/riotgames" role="button"
+          ><i class="bi bi-youtube"></i></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2020 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+    </footer>
+  </div>
+</body>
+</html>
